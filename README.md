@@ -30,16 +30,6 @@ The objective is to provide recruiters and hiring managers with a clear understa
 
 ---
 
-# 🖼 Preview
-
-> Replace these with portfolio screenshots.
-
-| Desktop |
-|----------|
-| ![Portfolio Screenshot](./preview/home.png) |
-
----
-
 # 🎯 Goals
 
 This portfolio was built to:
