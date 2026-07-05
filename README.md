@@ -1,129 +1,290 @@
-# Sarika Kohli — Portfolio
+<div align="center">
 
-A personal portfolio site built with React, Vite, Tailwind CSS, and Framer Motion.
+# ✨ Sarika Kohli — Developer Portfolio
 
-## Run it locally
+### A modern frontend portfolio built to showcase engineering thinking, real-world projects, and UI craftsmanship.
 
-```bash
-npm install
-npm run dev
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-2563EB?style=for-the-badge)](https://saarika-codes-sarika-portfolio.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/saarika-codes)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+</div>
+
+---
+
+# 📖 Overview
+
+This repository contains my personal developer portfolio.
+
+Rather than functioning as an online resume, the portfolio is designed to communicate **how I think as a frontend developer**—covering my development approach, engineering principles, project case studies, and the technical decisions behind my work.
+
+The objective is to provide recruiters and hiring managers with a clear understanding of both my technical skills and problem-solving process.
+
+---
+
+# 🌐 Live Website
+
+### 🔗 https://saarika-codes-sarika-portfolio.vercel.app/
+
+---
+
+# 🖼 Preview
+
+> Replace these with portfolio screenshots.
+
+| Desktop |
+|----------|
+| ![Portfolio Screenshot](./preview/home.png) |
+
+---
+
+# 🎯 Goals
+
+This portfolio was built to:
+
+- Showcase real frontend engineering projects
+- Present projects as case studies instead of simple cards
+- Demonstrate clean UI and responsive design
+- Highlight engineering decisions behind each project
+- Maintain fast performance and accessibility
+- Create a professional online presence for recruiters
+
+---
+
+# ✨ Features
+
+## 👋 Hero Section
+
+- Professional introduction
+- Resume download
+- Social links
+- Responsive CTA buttons
+
+---
+
+## 📂 Selected Work
+
+Projects showcased with:
+
+- Live Demo
+- GitHub Repository
+- Technology Stack
+- Project Summary
+- Screenshots
+
+Projects include:
+
+- JobHunter Pro
+- SpendSmart Pro
+- Nexus 2026 Event
+- Future flagship projects
+
+---
+
+## 📚 Engineering Case Studies
+
+Each project includes:
+
+- Problem Statement
+- Solution
+- Features
+- Technical Decisions
+- Challenges
+- Trade-offs
+- Lessons Learned
+
+---
+
+## 🧠 Engineering Principles
+
+Highlights the development practices followed throughout projects:
+
+- Responsive Design
+- Accessibility
+- Semantic HTML
+- Reusable Components
+- Maintainable CSS
+- Performance-first Development
+
+---
+
+## ⚙ Development Workflow
+
+Typical project workflow:
+
+Planning
+
+↓
+
+Research
+
+↓
+
+UI Development
+
+↓
+
+Responsive Testing
+
+↓
+
+Performance Optimization
+
+↓
+
+Deployment
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+### Frameworks
+
+- Bootstrap
+
+### CMS
+
+- WordPress
+- Elementor
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Chrome DevTools
+- Figma
+
+### Deployment
+
+- Vercel
+
+---
+
+# 📱 Responsive Design
+
+Optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+Uses a mobile-first responsive layout.
+
+---
+
+# ⚡ Performance
+
+The portfolio focuses on:
+
+- Optimized assets
+- Lightweight code
+- Responsive images
+- Fast loading
+- Clean CSS architecture
+
+---
+
+# ♿ Accessibility
+
+Implemented accessibility best practices:
+
+- Semantic HTML
+- Keyboard-friendly navigation
+- Accessible color contrast
+- Proper heading hierarchy
+- Responsive typography
+
+---
+
+# 📁 Project Structure
+
+```text
+portfolio/
+
+├── assets/
+├── images/
+├── css/
+├── js/
+├── components/
+├── resume/
+├── index.html
+└── README.md
 ```
 
-Open the URL Vite prints (usually http://localhost:5173).
+---
 
-## Build for production
+# 💡 What I Learned
 
-```bash
-npm run build
-npm run preview   # preview the production build locally
-```
+Building this portfolio strengthened my understanding of:
 
-The production files land in `dist/` — that folder is what you deploy
-(Netlify, Vercel, GitHub Pages, or any static host).
+- Frontend architecture
+- UI consistency
+- Responsive layouts
+- Project storytelling
+- Accessibility
+- Performance optimization
+- Professional portfolio presentation
 
-## Where to edit content
+---
 
-Everything real (name, bio, skills, work experience, education,
-projects, links) lives in one file:
+# 🚀 Future Improvements
 
-```
-src/data/portfolio.js
-```
+- Dark mode
+- Blog section
+- GitHub API integration
+- Project filtering
+- Search functionality
+- Motion improvements
+- Better case study visualizations
 
-Edit that file only — you don't need to touch any component to update
-your info.
+---
 
-### Adding your resume
+# 👩‍💻 About Me
 
-Drop your PDF at `public/resume.pdf` (exact filename). The "resume"
-button in the hero section already points at `/resume.pdf`, so it'll
-start working the moment the file exists.
+I'm **Sarika Kohli**, a Frontend Developer and WordPress Engineer with experience building responsive websites, interactive interfaces, and frontend-focused applications.
 
-### Adding real project screenshots
+I enjoy transforming ideas into clean, accessible, and user-friendly web experiences while continuously improving my frontend engineering skills.
 
-Right now each project card shows an abstract generated thumbnail
-(`src/components/ProjectThumb.jsx`) instead of a real screenshot.
-To use a real screenshot instead:
+---
 
-1. Put the image in `public/projects/your-image.jpg`
-2. Add `image: "/projects/your-image.jpg"` to that project's entry in
-   `src/data/portfolio.js`
-3. In `src/components/ProjectCard.jsx`, swap `<ProjectThumb ... />` for
-   a plain `<img src={project.image} ... />`
+# 📬 Contact
 
-### Adding testimonials or writing/blog links
+📧 Email
 
-Both sections are wired up but hidden until you add real content —
-open `src/data/portfolio.js` and fill in the `testimonials` or
-`writing` arrays with real quotes/posts. No placeholder content will
-ever show automatically.
+sarika.kohli123@gmail.com
 
-### Project statuses
+💼 LinkedIn
 
-Projects with `status: "soon"` (Frontend Engineering Studio, Time
-Capsule 2050) render as "coming soon" cards with no live/GitHub
-links. Once you ship them, change `status` to `"live"` and fill in
-`live`, `github`, `stack`, and `features`.
+https://linkedin.com/in/saarika-codes
 
-## Section order
+💻 GitHub
 
-This follows a fixed structure meant for recruiter/engineering-manager
-review, not a generic portfolio layout:
+https://github.com/saarika-codes
 
-Hero → About Me → Skills → Selected Work → Featured Case Studies →
-Engineering Principles → Development Workflow → Tech Stack →
-Professional Experience → Currently Learning → Engineering Mindset →
-Contact
+🌐 Portfolio
 
-GitHub Activity has been removed. Each shipped project (JobHunter
-Pro, SpendSmart Pro, Nexus 2026) now opens a dedicated `/projects/:slug`
-detail page with the full case-study write-up — click the project
-image or name on a card to open it. Dark/light mode is toggled from
-the navbar (global override, see `src/index.css`).
+https://saarika-codes-sarika-portfolio.vercel.app/
 
-**Featured Case Studies** (`src/data/portfolio.js` → `caseStudies`)
-go deep per project: Problem, Goal, Solution, Technical Decisions,
-Challenges, Trade-offs, Performance, Accessibility, Lessons Learned,
-Future Improvements. These are grounded in what each project's real
-README documents (or the actual technical choices visible in the
-code, like "no backend, Local Storage only") — known gaps (no
-accessibility audit, no perf benchmarks) are named as gaps rather than
-glossed over. Edit these directly as the projects evolve.
+---
 
-**GitHub Activity** pulls live data from your real GitHub profile via
-github-readme-stats and a contribution-graph widget — nothing here is
-static or invented. If your GitHub username changes, update
-`githubUsername` in `src/data/portfolio.js`.
+# ⭐ Support
 
-**Engineering Principles / Mindset / Workflow / About Me** are
-written in your voice based on patterns actually visible in your
-shipped projects and resume — re-read these and adjust anything that
-doesn't sound like you.
+If you found this project useful or enjoyed exploring it, consider giving the repository a ⭐.
 
-## Design
+It helps support my work and encourages me to build more frontend projects.
 
-Light, bright theme — off-white background, navy text, teal + coral
-accents, Roboto throughout. The About section includes an original
-flat-style SVG illustration (`src/components/DevIllustration.jsx`) in
-place of a real photo — swap it for your own photo or illustration
-whenever you like.
+---
 
-## Stack
+## 📄 License
 
-- React 19 + Vite
-- Tailwind CSS
-- Framer Motion (scroll/entrance animation)
-- lucide-react (icons)
-
-## Structure
-
-```
-src/
-  data/portfolio.js       ← all real content — edit this
-  components/             ← page sections
-  App.jsx                 ← assembles sections
-  index.css               ← design tokens / global styles
-public/
-  resume.pdf               ← add your resume PDF here (not included)
-  projects/                ← add real project screenshots here (optional)
-```
+This project is available for learning and portfolio reference purposes.
