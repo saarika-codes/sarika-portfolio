@@ -205,7 +205,7 @@ export const experience = [
     role: "Web Developer",
     company: "Social Emergers",
     location: "Delhi, India",
-    period: "May 2025 — Apr 2026",
+    period: "May 2025 — June 2026",
     points: [
       "Owned 5+ WordPress builds end-to-end — each one meant defining a design system (fonts, colors, section limits) up front so Elementor handoffs didn't turn into one-off pages that broke on revisit.",
       "Cross-browser and cross-device testing wasn't optional here — every page got checked against 10+ real viewports before a client saw it, which is where the mobile-first habit in personal projects comes from.",
