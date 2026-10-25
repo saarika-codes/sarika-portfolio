@@ -4,7 +4,7 @@
 
 ### A modern frontend portfolio built to showcase engineering thinking, real-world projects, and UI craftsmanship.
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-2563EB?style=for-the-badge)](https://saarika-codes-sarika-portfolio.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-2563EB?style=for-the-badge)](https://sarika-portfolio-dusky.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/saarika-codes)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -26,7 +26,7 @@ The objective is to provide recruiters and hiring managers with a clear understa
 
 # 🌐 Live Website
 
-### 🔗 https://saarika-codes-sarika-portfolio.vercel.app/
+### 🔗 https://sarika-portfolio-dusky.vercel.app/
 
 ---
 
@@ -102,7 +102,7 @@ https://github.com/saarika-codes
 
 🌐 Portfolio
 
-https://saarika-codes-sarika-portfolio.vercel.app/
+https://sarika-portfolio-dusky.vercel.app/
 
 ---
 
