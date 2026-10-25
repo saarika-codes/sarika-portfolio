@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #F7F8FB;
+    color: #171B26;
+    font-family: "Roboto", Arial, sans-serif;
+  }
+
+  ::selection {
+    background-color: rgba(14, 168, 158, 0.2);
+    color: #171B26;
+  }
+
+  *:focus-visible {
+    outline: 2px solid #0EA89E;
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-size: 0.72rem;
+    color: #0B8781;
+  }
+
+  .section-pad {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/* Site-wide dark mode: toggled by adding/removing `.dark` on <html>.
+   Kept as global overrides (rather than dark: utility variants on every
+   element) so the toggle works consistently without touching every
+   section's markup. */
+html.dark body {
+  background-color: #0F1117;
+  color: #EAEDF3;
+}
+html.dark .bg-paper { background-color: #0F1117 !important; }
+html.dark .bg-surface { background-color: #171A24 !important; }
+html.dark .bg-surfacealt { background-color: #1F2330 !important; }
+html.dark .text-ink { color: #EAEDF3 !important; }
+html.dark .text-muted { color: #9AA3B5 !important; }
+html.dark .border-line { border-color: #2A2F3D !important; }
+html.dark .shadow-card { box-shadow: 0 8px 30px -12px rgba(0,0,0,0.5) !important; }
+
+@keyframes bubble-float {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(var(--bx, 20px), var(--by, -30px)) scale(1.06); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 9999px;
+  animation: bubble-float var(--bd, 10s) ease-in-out infinite;
+  will-change: transform;
+}
